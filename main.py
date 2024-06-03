@@ -42,7 +42,7 @@ add_to_vectorstore = input("Do you want to update the issues? (y/N): ").lower() 
 
 if add_to_vectorstore:
     owner = "" #owner of a repository
-    repo = "" #oweners repo
+    repo = "" #owners repository
     issues = fetch_github_issues(owner, repo)
 
     try:
